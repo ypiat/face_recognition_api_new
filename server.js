@@ -16,7 +16,7 @@ const db = knex({
     host : 'dpg-cf7qnmarrk0e2aqtbqig-a',
     user : 'fase_recognition_user',
     password : 'XcBhDlNOKg2wkwDoaQ3HLPTYhQ6VxRDH',
-    database : 'fase_recognition_database'
+    database : 'fase_recognition'
   }
 });
 
