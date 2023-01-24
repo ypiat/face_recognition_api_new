@@ -13,8 +13,10 @@ const db = knex({
   
   client: 'pg',
   connection: {
-    host : 'postgres://fase_recognition_user:XcBhDlNOKg2wkwDoaQ3HLPTYhQ6VxRDH@dpg-cf7qnmarrk0e2aqtbqig-a.frankfurt-postgres.render.com/fase_recognition'
-    
+    host : 'dpg-cf7qnmarrk0e2aqtbqig-a',
+    user : 'fase_recognition_user',
+    password : 'XcBhDlNOKg2wkwDoaQ3HLPTYhQ6VxRDH',
+    database : 'fase_recognition_database'
   }
 });
 
