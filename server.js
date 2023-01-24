@@ -10,7 +10,7 @@ const image = require('./controlers/image');
 
 
 const db = knex({
-  // Enter your own database information here based on what you created
+  
   client: 'pg',
   connection: {
     host : '127.0.0.1',
