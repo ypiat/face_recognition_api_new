@@ -13,10 +13,8 @@ const db = knex({
   
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
-    user : 'postgres',
-    password : 'test',
-    database : 'smart-brain'
+    host : 'postgres://fase_recognition_user:XcBhDlNOKg2wkwDoaQ3HLPTYhQ6VxRDH@dpg-cf7qnmarrk0e2aqtbqig-a.frankfurt-postgres.render.com/fase_recognition'
+    
   }
 });
 
